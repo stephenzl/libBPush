@@ -18,5 +18,8 @@ Pod::Spec.new do |s|
   s.source_files = 'Classes/*.{h,m}'
   s.vendored_libraries = 'Classes/*.a'
 
-  s.dependency 'JSONKit','OpenUDID','Reachability','Base64'
+  s.dependency 'JSONKit'
+  s.dependency 'OpenUDID'
+  s.dependency 'Reachability'
+  s.dependency 'Base64'
 end
