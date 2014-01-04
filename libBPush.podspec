@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/stephenzl/libBPush.git"}
 
   s.platform     = :ios, '5.0'
-  s.source_files = 'upstream/*.h'
-  s.vendored_libraries = 'upstream/*.a'
+  s.source_files = 'Classes/*.h'
+  s.vendored_libraries = 'Classes/*.a'
 
   s.dependency 'JSONKit','OpenUDID','Reachability','Base64'
 end
