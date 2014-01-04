@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Classes/*.{h,m}'
   s.vendored_libraries = 'Classes/*.a'
 
+  s.framework = 'CoreTelephony','CFNetwork','SystemConfiguration'
   s.dependency 'JSONKit','~> 1.4'
   s.dependency 'OpenUDID','~> 1.0.1'
   s.dependency 'Reachability','~> 3.1.1'
