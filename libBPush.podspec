@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
   s.source_files = 'upstream/*.h'
   s.vendored_libraries = 'upstream/*.a'
 
-  s.dependency 'JSONKit'
+  s.dependency 'JSONKit','OpenUDID','Reachability','Base64'
 end
