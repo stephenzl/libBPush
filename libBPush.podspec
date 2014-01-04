@@ -22,5 +22,5 @@ Pod::Spec.new do |s|
   s.dependency 'JSONKit','~> 1.4'
   s.dependency 'OpenUDID','~> 1.0.0'
   s.dependency 'Reachability','~> 3.1.1'
-  s.dependency 'Base64','~> 1.0.1'
+  s.dependency 'Base64', :git=>'https://github.com/stephenzl/Base64'
 end
