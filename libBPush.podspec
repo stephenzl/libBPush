@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.0'
   s.source_files = 'Classes/*.{h,m}'
   s.vendored_libraries = 'Classes/*.a'
-
+  s.requires_arc = false
   s.framework = 'CoreTelephony','CFNetwork','SystemConfiguration'
   s.dependency 'JSONKit','~> 1.4'
   s.dependency 'OpenUDID','~> 1.0.0'
